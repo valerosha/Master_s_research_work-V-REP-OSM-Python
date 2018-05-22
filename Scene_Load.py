@@ -40,7 +40,7 @@ if __name__ == "__main__":
     bridge = VrepBridge()	
 	
 	#Указываем путь сцены
-	scene_path = '/Pioneer.ttt'
+	scene_path = '/scenes/Pioneer.ttt'
 	
 	#Вызываем необходимый метод
 	bridge.loadScene(scene_path)
